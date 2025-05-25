@@ -40,3 +40,22 @@
   width: 70%;
   border-left: none;
 }
+
+body {
+    background: #323232;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+    color:AliceBlue;
+    position: flex;
+    text-align: center;
+}
+h2 {
+    color:AliceBlue;
+    position: flex;
+    text-align: center;
+}
+p {
+    color:AliceBlue;
+}
