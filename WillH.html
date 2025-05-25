@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRTC DL - Will H</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function checkPassword() {
+            var password = "password"; // Set your password here
+            var userInput = prompt("Please enter the password to view this page:");
+    
+            if (userInput === password) {
+                // Password is correct, show the content
+                document.getElementById("protectedContent").style.display = "block";
+            } else {
+                // Password is incorrect, redirect or show an error
+                alert("Incorrect password. You will be redirected back to the homepage.");
+                window.location.href = "https://avpxxd.github.io/dlsite"; // Redirect to another page
+            }
+        }
+    </script>
+</head>
+<body onload="checkPassword()">
+    <div id="protectedContent" style="display:none;">
+        <h1>Welcome, Will Hyndman</h1>
+        <p>There's nothing here yet...</p>
+    </div>
+</body>
+</html>
 
