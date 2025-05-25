@@ -52,8 +52,13 @@ h1 {
     position: flex;
     text-align: center;
 }
-h3 {
+h2 {
     color:AliceBlue;
+    position: flex;
+    text-align: center;
+}
+h3 {
+    color: #0DB301;
     position: flex;
     text-align: center;
 }
