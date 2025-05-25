@@ -3,29 +3,37 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css">
-  <script src="scripts.js"></script>
+  <script src="scripts.js">
+    openCity(event, '')
+  </script>
   <title>DRTC Server File Downloader</title>
 </head>
 <body>
   <h1>DRTC Server File Downloader</h1>
   <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+    <button class="tablinks" onclick="openCity(event, 'Shared')">Shared Files</button>
+    <button class="tablinks" onclick="openCity(event, 'Andrew')">Andrew</button>
+    <button class="tablinks" onclick="openCity(event, 'Will')">Will</button>
+    <button class="tablinks" onclick="openCity(event, 'Dalton')">Dalton</button>
   </div>
 
-  <div id="London" class="tabcontent">
-    <h3>London</h3>
-    <p>London is the capital city of England.</p>
+  <div id="Shared" class="tabcontent">
+    <h3>Shared Files</h3>
+    <p>This Is Where Shared Files Will Appear.</p>
+  </div>
+  
+  <div id="Andrew" class="tabcontent">
+    <h3>Andrew's Files</h3>
+    <p>This Is Where Andrew's Files Will Appear.</p>
   </div>
 
-  <div id="Paris" class="tabcontent">
-    <h3>Paris</h3>
-    <p>Paris is the capital of France.</p>
+  <div id="Will" class="tabcontent">
+    <h3>Will's Files</h3>
+    <p>This Is Where Will's Files Will Appear.</p>
   </div>
 
-  <div id="Tokyo" class="tabcontent">
-    <h3>Tokyo</h3>
-    <p>Tokyo is the capital of Japan.</p>
+  <div id="Dalton" class="tabcontent">
+    <h3>Dalton's Files</h3>
+    <p>This Is Where Dalton's Files Will Appear.</p>
   </div>
 </body>
