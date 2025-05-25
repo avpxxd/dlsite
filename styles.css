@@ -3,7 +3,8 @@
 /* Style the tab */
 .tab {
   float: left;
-  border: 1px solid #ccc;
+  border: 1px solid #202020;
+  border-radius: 5px;
   background-color: #323232;
   width: 20%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -16,7 +17,8 @@
   color:AliceBlue;
   padding: 22px 16px;
   width: 100%;
-  border: 1px solid #ccc;
+  border: 1px solid #202020;
+  border-radius: 5px;
   outline: none;
   text-align: left;
   cursor: pointer;
@@ -38,7 +40,8 @@
 .tabcontent {
   float: left;
   padding: 0px 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #202020;
+  border-radius: 5px;
   width: 70%;
 }
 
