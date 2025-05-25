@@ -67,4 +67,13 @@ h3 {
 }
 p {
     color:AliceBlue;
+    position: flex;
+    text-align: center;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
